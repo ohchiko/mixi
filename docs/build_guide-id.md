@@ -33,7 +33,7 @@ langkah-langkah flashing firmware sudah dijelaskan secara rinci pada
 
 Firmware Mixi default pada repository QMK belum support aplikasi
 [VIA](https://caniusevia.com). Firmware Mixi yang sudah support aplikasi VIA,
-dapat didownload di [direktori firmware](/firmwares).
+dapat didownload di [direktori firmware](/firmware).
 
 ## Perakitan
 

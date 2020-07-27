@@ -31,8 +31,8 @@ Firmware installation can be done before or after build. Steps on flashing the
 firmware are described on the
 [QMK documentation](https://docs.qmk.fm/#/newbs_flashing).
 
-The default firmware of Mixi doesn't support [VIA](https://caniusevia.com). To
-use VIA, you can download from the [firmwares directory](/firmwares).
+The default firmware of Mixi doesn't support [VIA](https://caniusevia.com). VIA-
+supported firmware can be downloaded from the [firmware directory](/firmware).
 
 ## Building
 
