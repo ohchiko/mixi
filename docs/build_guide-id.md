@@ -17,6 +17,7 @@ Berikut daftar komponen yang diperlukan untuk merakit macropad Mixi:
 | Baut M2x10                            |        8 | ![](https://i.imgur.com/wrFVZyFt.jpg) |
 | Spacer M2x12                          |        4 | ![](https://i.imgur.com/oKORk9Et.jpg) |
 | Casing Mixi                           |        1 | ![](https://i.imgur.com/Seof9ejt.jpg) |
+| Rubber Feet 6mm x >=2.5mm             |        4 | ![](https://i.imgur.com/04lfNT0t.jpg) |
 | (Opsional) EC11 Rotary Encoder Switch | 1 atau 2 | ![](https://i.imgur.com/t4BbMint.jpg) |
 | (Opsional) Rotary Encoder Knob        | 1 atau 2 | ![](https://i.imgur.com/pJnMIWrt.jpg) |
 
@@ -69,9 +70,13 @@ kaki header yang akan menghadap ke switch agar tidak mengganggu posisi switch.
 Jika menggunakan rotary encoder, maka selanjutnya solder rotary encoder pada
 `SW1` dan/atau `SW2` di PCB sebelum memasang switch.
 
+![](https://i.imgur.com/s4X3ddYm.jpg)
+
 Pasang switch pada switch plate dan letakkan plate support sebelum menyolder
 switch ke PCB sehingga plate support berada diantara PCB dan switch plate. Lalu
 solder switch ke PCB.
+
+![](https://i.imgur.com/EmnORK0m.jpg)
 
 > **Catatan**: Sebelum menyolder switch ke PCB, pastikan posisi PCB sebisa
 > mungkin menempel pada plate support. Hal ini dikarenakan jika terdapat gap
@@ -83,8 +88,18 @@ Setelah switch terpasang pada PCB, selanjutnya solder Pro Micro ke header yang
 telah dipasang. Pastikan komponen pada Pro Micro menghadap ke PCB. Potong kaki
 header pada Pro Micro setelah disolder.
 
+![](https://i.imgur.com/mylS2t2m.jpg)
+
 Susun tiap layer casing seperti gambar di bawah ini, lalu pasang.
 
-Pasang keycaps.
+*urutan dari bawah ke atas*
 
-Selesai.
+![](https://i.imgur.com/Q2gwhIem.jpg)
+
+Kemudian, tempelkan rubber feet di lokasi yang sudah ditentukan pada base layer casing.
+
+![](https://i.imgur.com/ogmd9iIm.jpg)
+
+Pasang keycaps, dan selesai.
+
+![](https://i.imgur.com/sv39K2hm.jpg)

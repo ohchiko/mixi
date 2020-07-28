@@ -17,6 +17,7 @@ These below components are needed in order to build Mixi macropad completely.
 | M2x10 Bolts                           |      8 | ![](https://i.imgur.com/wrFVZyFt.jpg) |
 | M2x12 Standoffs                       |      4 | ![](https://i.imgur.com/oKORk9Et.jpg) |
 | Mixi Acrylic Sandwich Case            |      1 | ![](https://i.imgur.com/Seof9ejt.jpg) |
+| Rubber Feet 6mm x >=2.5mm             |      4 | ![](https://i.imgur.com/04lfNT0t.jpg) |
 | (Optional) EC11 Rotary Encoder Switch | 1 or 2 | ![](https://i.imgur.com/t4BbMint.jpg) |
 | (Optional) Rotary Encoder Knob        | 1 or 2 | ![](https://i.imgur.com/pJnMIWrt.jpg) |
 
@@ -65,9 +66,13 @@ the header. After soldering, trim the legs.
 If you want to use rotary encoder(s), it's time to solder them. Put the rotary
 encoder on `SW1` and/or `SW2`.
 
+![Rotary](https://i.imgur.com/s4X3ddYm.jpg)
+
 Put your switches on the switch plate layer of the case and put the plate
 support layer between the switch plate layer and the PCB. Solder the swithes to
 the PCB.
+
+![Switch](https://i.imgur.com/EmnORK0m.jpg)
 
 > **Note**: Before soldering the switches, make sure the PCB is close to the
 > plate support layer. If there's to much gap between the PCB and the plate
@@ -78,8 +83,18 @@ After the switches are soldered, put the Pro Micro on the headers and solder it.
 Make sure the components on the Pro Micro is facing the PCB. Then trim the
 legs so it won't interfere with the base layer of the case.
 
-Assemble and screw in the case with the standoffs in.
+![Pro micro](https://i.imgur.com/mylS2t2m.jpg)
 
-Put keycaps on.
+Stack the case layers in below order, and assemble them with standoffs and bolts.
 
-Done.
+*from bottom to top*
+
+![Case layer order](https://i.imgur.com/Q2gwhIem.jpg)
+
+Place the rubber feet at the designated locations.
+
+![Rubber feet](https://i.imgur.com/ogmd9iIm.jpg)
+
+Put keycaps on, and voila!.
+
+![](https://i.imgur.com/sv39K2hm.jpg)
