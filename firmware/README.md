@@ -5,11 +5,11 @@ You can download the default firmware for you Mixi macropad from here or from
 
 Below are the steps in order to use VIA-supported firmware:
 
-1. Download one of the firmware which has `_via` suffix according to your layout
+1. Download the firmware which has `_via` suffix according to your layout
 2. Download the [`mixi.json`](mixi.json) file.
 3. Flash the downloaded firmware to your Mixi macropad.
 4. Open VIA application (download [here](https://caniusevia.com)).
-5. Go to `File -> Import Keymap` (or simply press `Ctrl+O` on your keyboard).
+5. Go to `File -> Import Keymap` (or simply press `C-o` on your keyboard).
 6. Locate and choose the `mixi.json` file downloaded before.
 7. Feel free to customize the keymap!
 
