@@ -100,6 +100,6 @@ Kemudian, tempelkan rubber feet di lokasi yang sudah ditentukan pada base layer 
 
 ![](https://i.imgur.com/ogmd9iIm.jpg)
 
-Pasang keycaps, dan selesai.
-
 ![](https://i.imgur.com/sv39K2hm.jpg)
+
+Pasang keycaps, dan selesai.

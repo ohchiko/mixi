@@ -95,6 +95,6 @@ Place the rubber feet at the designated locations.
 
 ![Rubber feet](https://i.imgur.com/ogmd9iIm.jpg)
 
-Put keycaps on, and voila!.
-
 ![](https://i.imgur.com/sv39K2hm.jpg)
+
+Put keycaps on, and voila!.
