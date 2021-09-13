@@ -1,22 +1,41 @@
 # Panduan Merakit Macropad Mixi Lite
 
-## Instalasi Firmware
+[![built](https://i.imgur.com/QGY6OPSl.jpg)](https://i.imgur.com/QGY6OPS.jpg)
 
-Mixi Lite menggunakan firmware yang sama dengan Mixi, yaitu [QMK](https://qmk.fm/). Instalasi firmware Mixi Lite dapat
-dilakukan melalui aplikasi [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 
+## Instalasi _Firmware_
+
+Mixi Lite menggunakan _firmware_ [QMK](https://qmk.fm/). 
+Firmware Mixi Lite dapat diunduh pada [tautan ini](https://drive.google.com/drive/folders/1Pa_X5m7XY1j7zEGnwzM4nk56kc_EIH6z?usp=sharing).
+
+Instalasi _firmware_ dapat dilakukan melalui aplikasi [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 Instruksi instalasi dapat dilihat di [halaman dokumentasi QMK](https://docs.qmk.fm/#/newbs_flashing).
 
-## Merakit PCB
+## Merakit Mixi Lite
 
 ### Komponen
 
-Komponen yang dibutuhkan untuk merakit PCB Mixi Lite adalah sebagai berikut:
+[ ![components](https://i.imgur.com/hJNwRQgl.jpg) ](https://i.imgur.com/hJNwRQg.jpg)
+
+Komponen yang akan Anda terima dari pembelian kit Mixi Lite dan yang dibutuhkan untuk proses perakitan adalah sebagai berikut:
+
 - 1x PCB Mixi Lite
-- 1x Reset Switch
-- 1x Arduino Pro Micro (or clone) + headers
-- 8/9x Switch MX
-- (Opsional) 1x Rotary Encoder EC11
+- 1x Case Mixi Lite
+- 4x Kaki Karet (_rubber bump-on feet_)
+- 1x Arduino Pro Micro + _header_
+- 1x Tombol Reset
+- 1x Resistor 10K Ohm
+- 1x Rotary Encoder EC11
+- 1x Knob Rotary
+
+Anda perlu menambahkan 8-9x Switch MX untuk proses perakitan. Jika Anda akan menggunakan rotary encoder, Anda hanya butuh sebanyak 8x Switch MX.
+
+Komponen lain yang dapat Anda tambahkan adalah sebagai berikut:
+
+- 2x RGB LED Strip (2 Mata LED)
+- 1x Resistor 470 Ohm
+- 3x ±2.5cm Kabel Tembaga 22/24 AWG (disarankan kabel tunggal)
+- 3x ±6cm Kabel Tembaga 22/24 AWG (disarankan kabel tunggal)
 
 ### Langkah Perakitan
 
@@ -24,80 +43,125 @@ Komponen yang dibutuhkan untuk merakit PCB Mixi Lite adalah sebagai berikut:
 
 **1. Beri timah pada salah satu pad.**
 
-**2. Letakkan dan tahan posisi reset switch pada tempatnya.**
+[ ![tin-reset](https://i.imgur.com/QExGbcLl.jpg) ](https://i.imgur.com/QExGbcL.jpg)
 
-**3. Panaskan timah yang telah ada pada salah satu pad, sembari posisikan reset switch.**
+**2. Panaskan timah yang telah ada pada salah satu pad, sembari posisikan reset switch.**
 
-**4. Solder pad yang lain.**
+[ ![reheat-reset](https://i.imgur.com/m6Skztql.jpg) ](https://i.imgur.com/m6Skztq.jpg)
 
-![reset](https://media.discordapp.net/attachments/854190316465815553/866199415844503572/IMG20210718124801.jpg?width=676&height=676)
+**3. Solder pad yang lain.**
 
-#### Header Pro Micro
+[ ![reset](https://i.imgur.com/JJNAnhJl.jpg) ](https://i.imgur.com/JJNAnhJ.jpg)
 
-**1. Letakkan header pro micro pada lubang yang tersedia.**
+**4. Tekuk kaki resistor 10K ohm.**
 
-Bagian yang lebih panjang menghadap ke PCB.
+[ ![bend-reset](https://i.imgur.com/RUvLQYll.jpg) ](https://i.imgur.com/RUvLQYl.jpg)
 
-![header-1](https://media.discordapp.net/attachments/854190316465815553/866278336140148746/IMG20210718181909.jpg?width=676&height=676)
+**5. Masukan kaki resistor tersebut ke R2 kemudian tekuk kaki resistor di sisi sebaliknya untuk menahan posisi resistor, lalu solder.**
 
-**2. Solder pin header pro micro pada sisi sebaliknya.**
+[ ![r2-reset](https://i.imgur.com/xE5OYVQl.jpg) ](https://i.imgur.com/xE5OYVQ.jpg)
 
-![header-2](https://media.discordapp.net/attachments/854190316465815553/866278336656834560/IMG20210718181950.jpg?width=676&height=676)
+**6. Potong kaki resistor hingga rata dengan PCB, dan resistor akan terlihat seperti gambar di bawah ini.**
 
-**3. Potong sisa pin yang telah disolder.**
+[ ![resistor-reset](https://i.imgur.com/31k1mVil.jpg) ](https://i.imgur.com/31k1mVi.jpg)
+
+#### RGB Underglow - 1
+
+**Jika Anda akan menggunakan fitur RGB underglow, pasang resistor 470 ohm pada R1.**
+
+[ ![resistor-rgb](https://i.imgur.com/DvjoZxRl.jpg) ](https://i.imgur.com/DvjoZxR.jpg)
+
+#### Pro Micro - 1
+
+**1. Letakkan header pro micro pada lubang yang tersedia, kaki yang lebih pendek menghadap PCB.**
+
+[ ![header-1](https://i.imgur.com/d7lWxfel.jpg) ](https://i.imgur.com/d7lWxfe.jpg)
+
+**2. Solder salah satu pin dari header pada sisi sebaliknya sembari meluruskan header.**
+
+[ ![header-2](https://i.imgur.com/SSpsfYDl.jpg) ](https://i.imgur.com/SSpsfYD.jpg)
+
+**3. Pastikan header lurus sehingga Pro Micro dapat dimasukkan dengan mudah.**
+
+[ ![header-3](https://i.imgur.com/67iGiWgl.jpg) ](https://i.imgur.com/67iGiWg.jpg)
+
+**4. Jika header sudah lurus, solder seluruh pin header.**
+
+[ ![header-4](https://i.imgur.com/i1ZI37Cl.jpg) ](https://i.imgur.com/i1ZI37C.jpg)
+
+#### Rotary Encoder
+
+**1. Jika Anda akan menggunakan rotary encoder, masukan rotary encoder pada sisi balik dari SW1 (sisi atas PCB)**
+
+[ ![rotary-1](https://i.imgur.com/msZenh6l.jpg) ](https://i.imgur.com/msZenh6.jpg)
+
+**2. Solder ke-lima pin rotary encoder.**
+
+[ ![rotary-2](https://i.imgur.com/TOtVWS3l.jpg) ](https://i.imgur.com/TOtVWS3.jpg)
 
 #### Switch
 
-**1. Tempatkan switch pada plate dan pasang ke PCB.**
+**1. Tempatkan switch pada plate.**
 
-![switch](https://media.discordapp.net/attachments/854190316465815553/866279062807511070/IMG-20210718-WA0012.jpg?width=901&height=676)
+[ ![switch-1](https://i.imgur.com/RJhTORQl.jpg) ](https://i.imgur.com/RJhTORQ.jpg)
 
-**2. Solder switch.**
+**2. Masukkan switch ke PCB dan solder semua switch.**
 
-#### Pro Micro
+[ ![switch-2](https://i.imgur.com/eQus7pkl.jpg) ](https://i.imgur.com/eQus7pk.jpg)
 
-**1. Letakkan pro micro di atas header.**
+Sebagai langkah preventif, Anda dapat memotong pin 2 switch yang terletak di antara header Pro Micro untuk mengurangi risiko pin switch menyentuh komponen pada Pro Micro.
 
-Bagian pro micro yang terdapat komponen menghadap ke PCB.
+#### Pro Micro - 2
 
-**2. Solder pin pro micro.**
+**1. Letakkan pro micro di atas header, komponen pada Pro Micro menghadap PCB.**
 
-![promicro](https://media.discordapp.net/attachments/854190316465815553/866199416247812136/IMG20210718125854.jpg?width=676&height=676)
+[ ![promicro-1](https://i.imgur.com/PcZicUCl.jpg) ](https://i.imgur.com/PcZicUC.jpg)
 
-## Merakit Case
+Anda juga dapat menempelkan Kapton/Dielectric Tape pada PCB, di atas pin switch di antara header Pro Micro sebelum meletakkan Pro Micro untuk menghindari kontak antara komponen Pro Micro dengan pin switch.
 
-### Komponen
+**2. Solder pin Pro Micro.**
 
-Komponen case pada Mixi Lite terdiri atas:
-- 1x Bottom Layer
-- 4x Mid Layer
-- 1x Plate Layer
-- 2x Top Layer
-- 8x Baut M2x8mm
-- 4x Standoff M2x16mm
-- (Extra) 4x Baut M2x5mm
-- (Extra) 4x Standoff M2x12mm
+[ ![promicro-2](https://i.imgur.com/US7sk5sl.jpg) ](https://i.imgur.com/US7sk5s.jpg)
 
-### Langkah Perakitan
+#### RGB Underglow - 2
 
-**1. Pasang standoff dan baut pada bottom layer.**
+**1. Gunakan 3 warna kabel berbeda untuk setiap panjang kabel. Beri timah pada tembaga pada ujung kabel.**
 
-![bottom](https://media.discordapp.net/attachments/854190316465815553/866199416872239105/IMG20210718130111.jpg?width=676&height=676)
+[ ![rgb-1](https://i.imgur.com/vaViNYll.jpg) ](https://i.imgur.com/vaViNYl.jpg)
 
-**2. Susun 4x mid layer.**
+**2. Beri timah pada pad di ujung LED Strip. Salah satu strip hanya perlu diberi timah pada satu sisi saja (perhatikan tanda panah pada LED Strip).**
 
-Jika memungkinkan, Anda dapat hanya menggunakan 3x mid layer. Dalam hal ini, gunakan standoff 12mm dan perhatikan tinggi pin header pro micro, apakah menabrak bottom layer atau tidak.
+[ ![rgb-2](https://i.imgur.com/vpIG5Wbl.jpg) ](https://i.imgur.com/vpIG5Wb.jpg)
 
-![mid](https://media.discordapp.net/attachments/854190316465815553/866199417622102016/IMG20210718130151.jpg?width=676&height=676)
+**3. Solder kabel pada LED Strip. Pastikan gunakan warna yang sama untuk pad yang sama. Perhatikan tanda panah pada LED Strip!**
 
-**3. Letakkan plate dan PCB.**
+[ ![rgb-3](https://i.imgur.com/rvjyp2Wl.jpg) ](https://i.imgur.com/rvjyp2W.jpg)
 
-**4. Susun top layer.**
+**4. Solder kabel yang pendek pada J3.**
 
-Top layer dengan lubang baut lebih besar (lubang untuk standoff) berada di bawah top layer dengan lubang baut lebih kecil.
+[ ![rgb-4](https://i.imgur.com/BDOneVAl.jpg) ](https://i.imgur.com/BDOneVA.jpg)
 
-**5. Kencangkan baut pada case.**
+**5. Lepaskan pelindung lem di belakang LED Strip, dan letakkan LED Strip pada PCB.**
 
-Diharapkan tidak memutar baut terlalu keras berhubung bahan case terbuat dari akrilik yang dapat retak. Kencangkan baut secukupnya.
+[ ![rgb-5](https://i.imgur.com/pEMBhXFl.jpg) ](https://i.imgur.com/pEMBhXF.jpg)
 
-![complete](https://media.discordapp.net/attachments/854190316465815553/866199418210353152/IMG20210718130316.jpg?width=676&height=676)
+#### Case
+
+**1. Pasang PCB dan plate pada case.**
+
+[ ![case-1](https://i.imgur.com/CjE9CIpl.jpg) ](https://i.imgur.com/CjE9CIp.jpg)
+
+**2. Pasang kaki karet pada bawah case untuk menghindari kontak langsung antara case dengan permukaan meja, mencegah baret.**
+
+[ ![case-2](https://i.imgur.com/pkMCCWll.jpg) ](https://i.imgur.com/pkMCCWl.jpg)
+[ ![case-3](https://i.imgur.com/2rcg1col.jpg) ](https://i.imgur.com/2rcg1co.jpg)
+
+#### Penyelesaian
+
+**1. Pasang keycaps dan knob.**
+
+[ ![finish-1](https://i.imgur.com/G2h7n6Kl.jpg) ](https://i.imgur.com/G2h7n6K.jpg)
+
+**2. Colokkan kabel micro USB pada Pro Micro dan Anda telah menyelesaikan perakitan Mixi Lite menggunakan langkah-langkah yang saya rekomendasikan, selamat!**
+
+[ ![finish-2](https://i.imgur.com/btkncXzl.jpg) ](https://i.imgur.com/btkncXz.jpg)
